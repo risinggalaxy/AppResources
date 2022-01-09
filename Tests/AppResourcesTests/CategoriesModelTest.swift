@@ -6,7 +6,7 @@ import XCTest
 
 class CategoriesModelTest: XCTestCase {
     
-    var sut: Categorie!
+    var sut: Category!
     
     override func setUp() {
         super.setUp()
@@ -21,7 +21,7 @@ class CategoriesModelTest: XCTestCase {
     func testCategoriesModel_WhenCreated_AllPropertiesShouldHaveValues() {
         let testImageTitle = "test_image_one.png"
         let channel = Channel(id: 0, title: "One", image: testImageTitle, url: "https://risinggalaxy.com")
-        let category = Categorie(id: 0, title: "Development", image: testImageTitle, channels: [channel])
+        let category = Category(id: 0, title: "Development", image: testImageTitle, channels: [channel])
         XCTAssertEqual(category.channels.first, channel)
         XCTAssertEqual(category.id, 0)
         XCTAssertEqual(category.title, "Development")

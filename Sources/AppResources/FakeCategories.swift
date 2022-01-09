@@ -8,12 +8,12 @@
 import Foundation
 
 public struct FakeCategories {
-    public static let categories: [Categorie] = [
-        Categorie(id: 1, title: "Development", image: "test_image_two", channels: FakeChannels.developmentChannels),
-        Categorie(id: 2, title: "Design", image: "test_image_three", channels: FakeChannels.designChannels),
-        Categorie(id: 3, title: "Mindfulness", image: "test_image_one", channels: FakeChannels.mindfullnessChannels),
-        Categorie(id: 4, title: "Sports", image: "test_image_three", channels: FakeChannels.sportChannels),
-        Categorie(id: 5, title: "Movies", image: "test_image_one", channels: FakeChannels.movieChannels)
+    public static let categories: [Category] = [
+        Category(id: 1, title: "Development", image: "test_image_two", channels: FakeChannels.developmentChannels),
+        Category(id: 2, title: "Design", image: "test_image_three", channels: FakeChannels.designChannels),
+        Category(id: 3, title: "Mindfulness", image: "test_image_one", channels: FakeChannels.mindfullnessChannels),
+        Category(id: 4, title: "Sports", image: "test_image_three", channels: FakeChannels.sportChannels),
+        Category(id: 5, title: "Movies", image: "test_image_one", channels: FakeChannels.movieChannels)
     ]
 }
 
