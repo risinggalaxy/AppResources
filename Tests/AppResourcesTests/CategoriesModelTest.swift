@@ -27,7 +27,7 @@ class CategoriesModelTest: XCTestCase {
         XCTAssertEqual(category.title, "Development")
         XCTAssertEqual(category.channels.first?.title, "One")
         XCTAssertEqual(category.channels.first?.id, 0)
-        XCTAssertEqual(category.image, testImageTitle)
+        XCTAssertEqual(category.icon, testImageTitle)
         XCTAssertEqual(category.channels.first?.image, testImageTitle)
         
     }

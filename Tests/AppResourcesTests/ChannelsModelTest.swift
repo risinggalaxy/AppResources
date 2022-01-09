@@ -27,11 +27,11 @@ class ChannelsModelTest: XCTestCase {
         let channelImage = "test_image_one.png"
         let channelUrl = "https://risinggalaxy.com"
         let channelID = 0
-        let channel = Channel(id: channelID, title: channelTitle, image: channelImage, url: channelUrl)
+        let channel = Channel(id: channelID, title: channelTitle, color: channelImage, url: channelUrl)
         
         XCTAssertEqual(channel.id, channelID)
         XCTAssertEqual(channel.title, channelTitle)
-        XCTAssertEqual(channel.image, channelImage)
+        XCTAssertEqual(channel.color, channelImage)
         XCTAssertEqual(channel.url, channelUrl)
         
     }

@@ -11,13 +11,13 @@ public struct Channel: Codable, Hashable, Identifiable {
     
     public let id: Int
     public let title: String
-    public let image: String
+    public let color: String
     public let url: String
     
-    public init(id: Int, title: String, image: String, url: String ) {
+    public init(id: Int, title: String, color: String, url: String ) {
         self.id = id
         self.title = title
-        self.image = image
+        self.color = color
         self.url = url
     }
     

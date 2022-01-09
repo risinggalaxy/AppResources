@@ -11,13 +11,13 @@ public struct Category: Codable, Hashable, Identifiable {
     
     public let id: Int
     public let title: String
-    public let image: String
+    public let icon: String
     public let channels: [Channel]
     
-    public init(id: Int, title: String, image: String, channels: [Channel]) {
+    public init(id: Int, title: String, icon: String, channels: [Channel]) {
         self.id = id
         self.title = title
-        self.image = image
+        self.icon = icon
         self.channels = channels
     }
     
