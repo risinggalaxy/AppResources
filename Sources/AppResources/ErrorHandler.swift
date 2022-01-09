@@ -11,6 +11,8 @@ public enum ErrorHandler: LocalizedError, Equatable {
     case    failedToLoadURL,
             failedToParsJSON,
             failedToRefreshData,
+            invalidChannelList,
+            noParentViewWasFound,
             failedRequest(description: String)
     
     public var errorDescription: String? {
@@ -18,6 +20,8 @@ public enum ErrorHandler: LocalizedError, Equatable {
         case .failedToParsJSON: return "Failed To Load JSON, Probably Bad JSON File"
         case .failedToLoadURL: return "Failed To Load URL, Probably Bad URL Address"
         case .failedToRefreshData: return "Failed To Refresh Data"
+        case .invalidChannelList: return "Invalid Channel List"
+        case .noParentViewWasFound: return "No Parent View Was Set"
         case .failedRequest(let description): return description
         }
     }
