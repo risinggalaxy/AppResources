@@ -1,2 +1,2 @@
 # AppResources
-This package provides access to Models and Test Data iTV Plus tvOS / Apple Tv live streaming application.
+This package adds Models and Test Data to the iTV Plus tvOS / Apple Tv live streaming application.
