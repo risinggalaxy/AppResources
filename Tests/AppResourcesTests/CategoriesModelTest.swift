@@ -6,14 +6,11 @@ import XCTest
 
 class CategoriesModelTest: XCTestCase {
     
-    var sut: Category!
-    
     override func setUp() {
         super.setUp()
     }
     
     override func tearDown() {
-        sut = nil
         super.tearDown()
     }
     
